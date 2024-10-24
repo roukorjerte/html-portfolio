@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+    position: relative;
+}
+
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+    
+    background-image: linear-gradient(rgba(24, 4, 37, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/buildings-1837028_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    filter: brightness(30%);
+}
+
+.icon-bar {
+    width: 100%; 
+    background-color: rgb(57, 29, 58); 
+    overflow: auto; 
+    margin: 30px 0px 0px 00px;
+    display: flex;
+}
+
+#placeholder{
+    width: 70%;
+    display: inline-block;
+    background-color:rgb(57, 29, 58); 
+}
+
+.icon-bar a {
+    text-align: center; 
+    width: 10%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+}
+
+.icon-bar a:hover {
+    background-color: #000; 
+    outline-color:  rgb(88, 62, 94);
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+H1{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    width: 100%;
+    margin: 250px 0px 0px 00px;
+}
+
+H2{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    font-size: 40px;
+}
+
+div>p{
+    margin: 10px 0px 0px 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: rgb(112, 110, 110);
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.alltogether{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.text{
+    width: 60%;
+    display: inline-block;
+    margin: 0px 50px 0px 0px;
+}
+
+.image{
+    width: 39%;
+    display: inline-block;
+    margin: 80px 0px 0px 0px;
+}
+
+
+.link{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(57, 29, 58);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: black;
+    outline-color:  rgb(88, 62, 94);
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.link a{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
