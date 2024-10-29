@@ -1,0 +1,62 @@
+h1{
+    margin:30px 0px 30px 0px;
+    padding: 0px;
+}
+
+h3{
+    margin: 0px 0px 0px 20px;
+}
+
+.worktime{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    margin: 10px 0px 0px 20px;
+}
+
+ul{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.contacts{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: underline;
+}
+
+#alltogether{
+    margin:30px 50px 50px 50px;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns:1.5fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 80px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridi-item{
+    justify-content: center;
+    align-items: center;
+}
+
+.invsible{
+    visibility: hidden;
+    margin: 0%;
+}
+
+.workplacename{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(1, 73, 141);
+    display: flex;
+    flex-direction: column;
+    align-items: left ;
+    justify-content: center;
+}

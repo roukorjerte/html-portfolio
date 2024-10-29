@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.alltogether{
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px 50px;
+}
+
+.imgblock{
+    flex: 1.2;
+    position: sticky;
+    height: 60vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textblock{
+    flex: 1;
+    overflow-y: auto;
+    height: 60vh;
+    margin: 0px 50px 0px 0px ;
+    padding-right: 20px;
+}
+
+h2{
+    margin: 0px 0px 20px 0px;
+}
+
+img{
+    display: inline-block;
+    width: auto;
+}
+
+#glowing{
+    margin:50px 10px 0px 0px ;
+}
+
+#device{
+    margin:0px 50px 50px 10px ;
+}
+
+h1{
+    margin: 0px;
+}
+
+#edu{
+    margin: 30px 0px 0px 50px;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid ; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(10, 31, 102);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(5, 34, 131);
+}
