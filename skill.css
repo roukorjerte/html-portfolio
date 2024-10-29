@@ -4,5 +4,19 @@ h1{
 
 .alltogether{
     margin: 30px 50px 50px 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
+.text{
+    width: 60%;
+    display: inline-block;
+    margin: 0px 50px 0px 0px;
+}
+
+.image{
+    width: 39%;
+    display: inline-block;
+    margin: 80px 0px 0px 0px;
+}
